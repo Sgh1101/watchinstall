@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 시계 모양 + 아래 화살표 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 시계줄 -->
+    <path android:fillColor="#9FB8D6" android:pathData="M44,26h20v10h-20z" />
+    <path android:fillColor="#9FB8D6" android:pathData="M44,72h20v10h-20z" />
+    <!-- 시계 몸체 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,34a20,20 0,1 1,0 40a20,20 0,1 1,0 -40z" />
+    <!-- 다운로드 화살표 -->
+    <path
+        android:fillColor="#1F3A5F"
+        android:pathData="M51,43h6v11h6l-9,10l-9,-10h6z" />
+</vector>
